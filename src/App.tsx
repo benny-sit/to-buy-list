@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { BrowserRouter } from 'react-router-dom'
-import Container from './Container'
+import Container from './Components/Container'
 import { ListProvider } from './ListContext'
-import Nav from './Nav'
+import Nav from './Components/Nav'
 
 function App() {
 

@@ -92,7 +92,7 @@ export default function ListItem({ item }: ListItemProps) {
               <span className="text-slate-400 ml-1">{item.qty}</span>
               <span className="">{item.name}</span>
             </div>
-            <span className="text-gray-300 text-xs invisible group-hover:visible max-h-0 group-hover: overflow-hidden">
+            <span className="text-gray-300 text-xs group-hover:max-h-[100px] max-h-0 overflow-hidden transition-all">
               {lastUpdate}
             </span>
           </div>

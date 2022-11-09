@@ -2,7 +2,7 @@ import React from 'react'
 import { AiOutlineShoppingCart, } from 'react-icons/ai';
 import { IoLogOutOutline } from 'react-icons/io5';
 import { useNavigate } from 'react-router-dom';
-import { useCurrentPath } from './utils/useCurrentPath';
+import { useCurrentPath } from '../utils/useCurrentPath';
 
 export default function Nav() {
   const navigate = useNavigate();

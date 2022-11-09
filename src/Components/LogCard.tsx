@@ -5,7 +5,7 @@ import {
   AiOutlineSwap,
 } from "react-icons/ai";
 import "./spinner.css";
-import { useList } from "./ListContext";
+import { useList } from "../ListContext";
 import { useNavigate } from "react-router-dom";
 
 export default function LogCard() {

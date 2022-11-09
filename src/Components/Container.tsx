@@ -1,7 +1,7 @@
 import React from 'react'
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
-import { ListProvider } from './ListContext'
-import BuyList from './ListComponents/BuyList'
+import { ListProvider } from '../ListContext'
+import BuyList from '../ListComponents/BuyList'
 import LogCard from './LogCard'
 
 export default function Container() {
